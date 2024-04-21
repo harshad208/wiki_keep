@@ -2,7 +2,7 @@ import json
 from fastapi import FastAPI, HTTPException, Depends, WebSocket
 from fastapi import FastAPI, WebSocket
 from wiki_keep.BaseModels import User, SaveArticle
-from database.CRUD import DBInit
+from .database.CRUD import DBInit
 from wiki_keep.WikiSearch import WikiSearch
 import websockets
 from wiki_keep.SentimentClassification import get_keyword_sentiment
