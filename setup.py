@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct the absolute path to req.txt
-requirements_file = os.path.join(base_dir, "requirement.txt")
+requirements_file = os.path.join(base_dir, "requirements.txt")
 
 with open(requirements_file, "r") as fh:
     requirements = fh.read().splitlines()
