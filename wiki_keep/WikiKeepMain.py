@@ -105,7 +105,6 @@ def filter_articles_on_tag(tag: str, user_id: int):
         print(e)
 
 
-
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
     await websocket.accept()

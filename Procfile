@@ -1,1 +1,1 @@
-web: gunicorn -w 4 -k uvicorn.worlers.UvicornWorker WikiKeepMain:app
+web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker WikiKeepMain:app
